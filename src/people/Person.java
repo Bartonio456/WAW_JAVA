@@ -1,4 +1,4 @@
-package people;
+package src.people;
 
 /**
  * Represents a person with a name and age.

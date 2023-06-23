@@ -1,7 +1,7 @@
-package school;
+package src.school;
 
-import people.Student;
-import people.Teacher;
+import src.people.Student;
+import src.people.Teacher;
 
 import java.util.ArrayList;
 
