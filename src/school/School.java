@@ -50,4 +50,12 @@ public class School {
             }
         }
     }
+
+    public ArrayList<Teacher> getTeachers() {
+        return teachers;
+    }
+
+    public ArrayList<Student> getStudents() {
+        return students;
+    }
 }
