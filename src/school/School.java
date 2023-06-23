@@ -1,7 +1,7 @@
-package school;
+package src.school;
 
-import people.Student;
-import people.Teacher;
+import src.people.Student;
+import src.people.Teacher;
 
 import java.util.ArrayList;
 
@@ -49,5 +49,13 @@ public class School {
                 System.out.println(teacher.getName() + " graded " + student.getName() + " with a grade of " + student.getGrades().get(student.getGrades().size() - 1));
             }
         }
+    }
+
+    public ArrayList<Teacher> getTeachers() {
+        return teachers;
+    }
+
+    public ArrayList<Student> getStudents() {
+        return students;
     }
 }
